@@ -33,4 +33,9 @@
 - Incluir hospedagem (servidor web)
 - Git - histórico de evolução (commits detalhados)
 
+### URL 
+Uniform Resource Locator
 
+- URL amigável: humanos e mecanismos de busca
+
+- 

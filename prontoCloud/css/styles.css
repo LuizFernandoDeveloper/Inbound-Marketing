@@ -1,11 +1,12 @@
 html {
     font-size: 62.5%;
     max-width: 100vw;
+    background-color: #b8c8d6;
 }
 
 body {
 
-    background-color: #f5f5f5; 
+    
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     overflow-x: hidden;
@@ -13,7 +14,8 @@ body {
 }
 
 .main-container {
-    background-color: #fff;
+    
+    background-color: #b8c8d6;
     max-width: 100vw;
     margin: 0 auto;
 }
@@ -23,17 +25,19 @@ body {
     width: 100%;
     display: block;
     float: left;
-    padding: 20px;
     margin: 0 auto;
+    
+    height: auto;
+    margin-bottom: 20px;
 }
 
 header {
-    background: #fff;
+    background-color: #b8c8d6;
     display: block;
     float: left;
     padding: 20px;
     width: 100%;
-    border-bottom: 1px solid #254159;
+    border-bottom: 1px solid white;
 }
 
 h1 {
@@ -104,12 +108,13 @@ ol li {
 
 section {
 
-    background-color: #fff;
+    
     display: block;
     float: left;
     font-size: 1.5rem; /* equivalente a 15px */ 
-    padding: 20px;
+    padding: 20px 0px;
     width: 100vw;
+    overflow: hidden;
 }
 
 section nav {
@@ -154,7 +159,7 @@ footer {
     background-color: #254159;  
     display: block;
     float: left;
-    padding: 20px;
+    padding: 20px 0;
     width: 100%;
 }
 
@@ -187,3 +192,98 @@ footer small {
         padding-right: 1%;
     }
 }
+
+#banner{
+
+    background-image: url('../imagens/banner.png');
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+
+}
+
+.legenda-container{
+
+    width: 40vw;
+    float: right;
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+
+.legenda{
+
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgba( 255, 255, 255, .6);
+    margin-bottom: 5rem;
+   
+}
+
+.legenda h5,
+.legenda h4 {
+
+    color: #254159;
+}
+
+.button-cta{
+
+    display: inline;
+    background-color: orangered;
+    color: white;
+    font-size: 2rem;
+    box-shadow: 2px 2px 4px black;
+    padding: 10px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 20px 5px;
+    
+}
+
+#saiba-mais{
+
+    background-color: #b8c8d6;
+    
+}
+
+#saiba-mais p,
+#saiba-mais img{
+
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+
+}
+
+h1{
+    margin-left: 40px;
+}
+
+dl{
+    
+    margin-bottom: 40px ;
+}
+
+dt{
+    margin-left: 40px;
+    font-family: 'open Sans';
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+dd{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+}
+
+a{
+    margin-left: 40px;
+}
+p {
+    margin-left: 40px;
+}
+
