@@ -33,4 +33,14 @@
 - Incluir hospedagem (servidor web)
 - Git - histórico de evolução (commits detalhados)
 
+### URL 
+Uniform Resource Locator
 
+- URL amigável: humanos e mecanismos de busca
+
+
+##  Link para vero site 
+  
+ 
+  <a href="prontocloudies.rf.gd" target="_blank"> Pronto Cloud</a>
+ 
